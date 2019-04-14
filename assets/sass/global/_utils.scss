@@ -1,0 +1,76 @@
+html,
+body {
+    color: #42516E;
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font: normal normal 100%/150%,'Source Sans Pro',  'Helvetica', sans-serif;
+    letter-spacing: -0.24px;
+
+    * {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+//typography
+h1,
+.h1 {
+    font-size: $h1;
+}
+
+h2,
+.h2 {
+    font-size: $h2;
+}
+
+h3,
+.h3 {
+    font-size: $h3;
+}
+
+h4,
+.h4 {
+    font-size: $h4;
+    letter-spacing: -0.21px;
+}
+
+h5,
+.h5 {
+    font-size: $h5;
+    letter-spacing: -0.24px;
+}
+
+h6,
+.h6 {
+    font-size: $h6;
+    letter-spacing: -0.24px;
+}
+
+p {
+    font-size: torem(14);
+    letter-spacing: -0.24px;
+    line-height: 20px;
+    margin-bottom: 0rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+small {
+    font-size: $small;
+    font-weight: normal;
+    letter-spacing: -0.18px;
+}
+
+.strong-text {
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: none;
+    }
+}

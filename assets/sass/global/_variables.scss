@@ -1,0 +1,58 @@
+//typography variables
+
+
+
+
+//Primary colors
+
+$white: #ffffff;
+
+// Mood Colors
+
+ $success: #03B825;
+// $danger: #e04551;
+// $warning: #ffde52;
+// $info: #4a73fa;
+
+
+//secondary colors
+$blue:#4864F4;
+$muted:#9E9FA1;
+$dark-grey:#172B4D;
+$fiord:#42516E;
+$light-grey:#AFB5C1;
+
+
+$background-dark:#405772;
+$light-bg: #F4F5F7;
+$border-color: #EBECF0;
+
+
+
+//avatar colors
+
+$orange: #FDB140;
+$fire: #F3745B;
+$purple: #7D5BF3;
+$pink: #ED49B2;
+$green: #1DCF90;
+$grey: #5E6A84;
+$cyan: #04C3CC;
+
+
+//font-sizes:
+$basefont: 16;
+$h1: #{72 / $basefont}rem;
+$h2: #{30 / $basefont}rem;
+$h3: #{24 / $basefont}rem;
+$h4: #{20 / $basefont}rem;
+$h5: #{16 / $basefont}rem;
+$h6: #{13 / $basefont}rem;
+$paragraph: #{14 / $basefont}rem;
+$small: #{12 / $basefont}rem;
+
+
+
+
+
+$avatar:  '[class*="avatar-"]';

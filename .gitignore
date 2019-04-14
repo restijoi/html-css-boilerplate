@@ -1,0 +1,6 @@
+# Don't track any of the content of these folders
+
+assets/node_modules/
+.DS_Store
+assets/.sass-cache/
+*css.map
